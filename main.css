@@ -43,3 +43,59 @@
     border: none;
     cursor:pointer;
 }
+.writing{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 15px 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.video-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 50px;
+}
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+.form1, .form2, .form3 {
+    margin:0 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border:1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    padding: 10px;
+
+}
+.form1 li, .form2 li , .form3 li{
+    list-style: none;
+    margin: 5px 0;
+}
+.select{
+    background-color: yellow;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+}
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 70%;
+}
+.footerul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+}
+.footerelements{
+    list-style: none;
+    margin: 0 10px;
+}
