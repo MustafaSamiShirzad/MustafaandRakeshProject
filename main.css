@@ -22,3 +22,24 @@
     font-weight: bold;
 
 }
+.searchsection{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.submit{
+    background-color: yellow;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    cursor:pointer;
+}
